@@ -1,0 +1,4 @@
+#!/bin/bash
+# SSH into a vast.ai instance
+
+ssh $(vastai ssh-url "$1")
